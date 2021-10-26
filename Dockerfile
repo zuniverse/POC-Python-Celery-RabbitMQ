@@ -1,7 +1,7 @@
 FROM python:3.9.7-alpine3.14
 
 # Add bash for alpine. --no-cache keeps size smaller.
-RUN apk add --no-cache bash
+RUN apk add --no-cache bash=5.1
 
 # logs :
 ENV PYTHONUNBUFFERED 1
