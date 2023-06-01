@@ -12,3 +12,9 @@ def launch_tasks():
     for i in range(1, 5):
         print(f'Launching task number {i}')
         long_running_task.delay(i)
+
+def main():
+    launch_tasks()
+
+if __name__ == "__main__":
+    main()
