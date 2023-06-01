@@ -1,3 +1,3 @@
 # Python-Celery-RabbitMQ in a Docker container
 
-A POC with a simple worker launching 4 Celery workers in parallel and witness the concurrent execution
+A simple run tasks launches 4 Celery workers in parallel to witness the concurrent execution
